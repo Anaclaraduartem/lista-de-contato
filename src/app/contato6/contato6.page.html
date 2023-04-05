@@ -1,13 +1,55 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>contato6</ion-title>
+  <ion-toolbar color="tertiary">
+    <ion-title>Dados:</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">contato6</ion-title>
-    </ion-toolbar>
-  </ion-header>
-</ion-content>
+
+
+  <ion-content [fullscreen]="true" color="">
+    <div class="teste">
+
+      <img src="https://www.oliberal.com/image/contentid/policy:1.90698:1552601774/David-Schwimmer.jpg?f=3x2&$p$f=a3ad9e1">
+    </div>
+  <ion-card>
+   <ion-list>
+    <ion-item >
+      <h1>
+        <ion-icon color="tertiary"  name="chatbubbles"></ion-icon>
+        Nome: David Schwimmer
+      </h1>
+    </ion-item>
+
+    <ion-item>
+      <h1>
+        <ion-icon color="tertiary" name="call"></ion-icon>
+       Telefone: +55 14 369258147
+      </h1>
+    </ion-item>
+
+      <ion-item>
+        <h1>
+          <ion-icon  color="tertiary" name="mail"></ion-icon>
+          Email: david@gmail.com.br
+      </h1>
+      </ion-item>
+
+        <ion-item>
+          <h1>
+            <ion-icon color="tertiary" name="finger-print"></ion-icon>
+          Id: 06
+          </h1>
+        </ion-item>
+        </ion-list>
+
+
+          <ion-button color="tertiary"  (click)="goToRoute('home')">
+      Voltar
+    </ion-button>
+      </ion-card>
+
+
+
+
+  </ion-content>
+

@@ -1,13 +1,55 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>contato4</ion-title>
+  <ion-toolbar color="tertiary">
+    <ion-title>Dados:</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">contato4</ion-title>
-    </ion-toolbar>
-  </ion-header>
-</ion-content>
+
+
+  <ion-content [fullscreen]="true" color="">
+    <div class="teste">
+
+      <img src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-519284354-copy.jpg?resize=1200:*">
+    </div>
+  <ion-card>
+   <ion-list>
+    <ion-item >
+      <h1>
+        <ion-icon color="tertiary"  name="chatbubbles"></ion-icon>
+        Nome: Matthew Perry
+      </h1>
+    </ion-item>
+
+    <ion-item>
+      <h1>
+        <ion-icon color="tertiary" name="call"></ion-icon>
+       Telefone: +55 14 123548768
+      </h1>
+    </ion-item>
+
+      <ion-item>
+        <h1>
+          <ion-icon  color="tertiary" name="mail"></ion-icon>
+          Email: matthew@gmail.com.br
+      </h1>
+      </ion-item>
+
+        <ion-item>
+          <h1>
+            <ion-icon color="tertiary" name="finger-print"></ion-icon>
+          Id: 04
+          </h1>
+        </ion-item>
+        </ion-list>
+
+
+          <ion-button color="tertiary"  (click)="goToRoute('home')">
+      Voltar
+    </ion-button>
+      </ion-card>
+
+
+
+
+  </ion-content>
+

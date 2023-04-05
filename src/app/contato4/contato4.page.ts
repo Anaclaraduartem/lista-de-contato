@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-contato4',
@@ -12,8 +13,11 @@ import { IonicModule } from '@ionic/angular';
 })
 export class Contato4Page  {
 
-  constructor() { }
+  constructor(private router: Router) { }
+  goToRoute(route:string){
+    this.router.navigate([`../${route}`]);
+  }
 
-  
+
 
 }

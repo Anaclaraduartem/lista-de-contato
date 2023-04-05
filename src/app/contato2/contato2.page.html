@@ -1,13 +1,55 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>contato2</ion-title>
+  <ion-toolbar color="tertiary">
+    <ion-title>Dados:</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">contato2</ion-title>
-    </ion-toolbar>
-  </ion-header>
-</ion-content>
+
+
+  <ion-content [fullscreen]="true" color="">
+    <div class="teste">
+
+      <img src="https://uploads.metropoles.com/wp-content/uploads/2022/07/21164036/GettyImages-1385597627.jpg">
+    </div>
+  <ion-card>
+   <ion-list>
+    <ion-item >
+      <h1>
+        <ion-icon color="tertiary"  name="chatbubbles"></ion-icon>
+        Nome: Lisa Kudrow
+      </h1>
+    </ion-item>
+
+    <ion-item>
+      <h1>
+        <ion-icon color="tertiary" name="call"></ion-icon>
+       Telefone: +55 14 239751367
+      </h1>
+    </ion-item>
+
+      <ion-item>
+        <h1>
+          <ion-icon  color="tertiary" name="mail"></ion-icon>
+          Email: lisa00@gmail.com.br
+      </h1>
+      </ion-item>
+
+        <ion-item>
+          <h1>
+            <ion-icon color="tertiary" name="finger-print"></ion-icon>
+          Id: 02
+          </h1>
+        </ion-item>
+        </ion-list>
+
+
+          <ion-button color="tertiary"  (click)="goToRoute('home')">
+      Voltar
+    </ion-button>
+      </ion-card>
+
+
+
+
+  </ion-content>
+

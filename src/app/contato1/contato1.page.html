@@ -1,40 +1,52 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>contato1</ion-title>
+  <ion-toolbar color="tertiary">
+
+    <ion-title>Dados:</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true" color="">
+  <div class="teste">
 
- <img src="https://media.vogue.fr/photos/636d234b7335ce4c9c0096ed/3:4/w_2589,h_3452,c_limit/1427974229" />
-
-
+ <img src="https://s2.glbimg.com/2tbUQaToPeZybWOy3D7u-r-X-uo=/620x413/top/e.glbimg.com/og/ed/f/original/2021/12/08/jennifer-aniston.png" />
+  </div>
+<ion-card>
  <ion-list>
-  <ion-item>
-    <ion-label>
-      <ion-icon name="arrow-forward-outline"></ion-icon>
+  <ion-item  >
+    <h1>
+      <ion-icon color="tertiary"  name="chatbubbles"></ion-icon>
       Nome: Jennifer Aniston
-    </ion-label>
+    </h1>
   </ion-item>
 
-
+  <ion-item>
+    <h1>
+      <ion-icon color="tertiary" name="call"></ion-icon>
+     Telefone: +55 14 999282781
+    </h1>
+  </ion-item>
 
     <ion-item>
       <h1>
-        <ion-icon name="arrow-forward-outline"></ion-icon>
+        <ion-icon  color="tertiary" name="mail"></ion-icon>
         Email: jennifer90@gmail.com.br
     </h1>
     </ion-item>
 
-
-
       <ion-item>
-        <ion-label>
-          <ion-icon name="arrow-forward-outline"></ion-icon>
-        ID: 01
-        </ion-label>
+        <h1>
+          <ion-icon color="tertiary" name="finger-print"></ion-icon>
+        Id: 01
+        </h1>
       </ion-item>
       </ion-list>
+
+
+        <ion-button color="tertiary"  (click)="goToRoute('home')">
+    Voltar
+  </ion-button>
+    </ion-card>
+
 
 
 
