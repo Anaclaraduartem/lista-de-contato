@@ -1,53 +1,49 @@
 <ion-header [translucent]="true">
-  <ion-toolbar color="tertiary">
+  <ion-toolbar color="cor2">
 
     <ion-title>Dados:</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true" color="">
+<ion-content color="cor1">
   <div class="teste">
 
- <img src="https://s2.glbimg.com/2tbUQaToPeZybWOy3D7u-r-X-uo=/620x413/top/e.glbimg.com/og/ed/f/original/2021/12/08/jennifer-aniston.png" />
+    <img
+      src="https://s2.glbimg.com/2tbUQaToPeZybWOy3D7u-r-X-uo=/620x413/top/e.glbimg.com/og/ed/f/original/2021/12/08/jennifer-aniston.png" />
   </div>
-<ion-card>
- <ion-list>
-  <ion-item  >
-    <h1>
-      <ion-icon color="tertiary"  name="chatbubbles"></ion-icon>
-      Nome: Jennifer Aniston
-    </h1>
-  </ion-item>
-
-  <ion-item>
-    <h1>
-      <ion-icon color="tertiary" name="call"></ion-icon>
-     Telefone: +55 14 999282781
-    </h1>
-  </ion-item>
-
-    <ion-item>
-      <h1>
-        <ion-icon  color="tertiary" name="mail"></ion-icon>
-        Email: jennifer90@gmail.com.br
-    </h1>
-    </ion-item>
-
-      <ion-item>
+  <ion-card color="cor1">
+    <ion-list>
+      <ion-item color="cor1">
         <h1>
-          <ion-icon color="tertiary" name="finger-print"></ion-icon>
-        Id: 01
+          <ion-icon   name="chatbubbles"></ion-icon>
+          Nome: Jennifer Aniston
         </h1>
       </ion-item>
-      </ion-list>
 
+      <ion-item color="cor1">
+        <h1>
+          <ion-icon  name="call"></ion-icon>
+          Telefone: +55 14 999282781
+        </h1>
+      </ion-item>
 
-        <ion-button color="tertiary"  (click)="goToRoute('home')">
-    Voltar
-  </ion-button>
-    </ion-card>
+      <ion-item color="cor1">
+        <h1>
+          <ion-icon  name="mail"></ion-icon>
+          Email: jennifer90@gmail.com.br
+        </h1>
+      </ion-item>
 
+      <ion-item color="cor1">
+        <h1>
+          <ion-icon  name="finger-print"></ion-icon>
+          Id: 01
+        </h1>
+      </ion-item>
+    </ion-list>
 
-
-
+    <ion-button color="cor2" (click)="goToRoute('home')">
+      Voltar
+    </ion-button>
+  </ion-card>
 </ion-content>
